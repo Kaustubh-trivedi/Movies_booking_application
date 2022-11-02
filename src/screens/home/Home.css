@@ -1,0 +1,78 @@
+.heading{
+    width: 100%;
+    background-color: #ff9999;
+    padding: 8px;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: px;
+    margin-bottom: 1px;
+}
+.grid{
+    margin:0;
+}
+*::-webkit-scrollbar {
+    width: .3em;
+}
+
+*::-webkit-scrollbar-track {
+    background: rgba(228, 228, 228);
+    border-radius: 100vw;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: rgb(111, 111, 111);
+    border-radius: 100vw;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background: rgb(73, 73, 73);
+}
+
+.home {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.css-1ubxscc::-webkit-scrollbar {
+    height: .7em;
+}
+
+.css-1ubxscc::-webkit-scrollbar-track {
+    background: rgba(228, 228, 228);
+    -webkit-box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.65);
+    box-shadow: inset 0px 0px 2px 0px rgb(0 0 0 / 80%);
+}
+
+.css-1ubxscc::-webkit-scrollbar-thumb {
+    background: rgb(111, 111, 111);
+    border-radius: 100vw;
+    border: .1em solid rgba(228, 228, 228);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container > div {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-wrap: wrap;
+    width: 76%;
+}
+
+.left > div {
+    margin: 16px;
+}
+
+.right {
+    margin: 16px;
+}
+.tohand{
+    cursor: pointer;
+}
